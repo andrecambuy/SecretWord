@@ -1,6 +1,6 @@
 # SecretWord
 
-SecretWord é um projeto criado pelo curso X para o melhor entendimento dos conceitos de React.JS.
+SecretWord é um projeto criado pelo curso React do Zero a Maestria pelo professor [Matheus Battisti](https://www.linkedin.com/in/matheusbattisti/) para o melhor entendimento dos conceitos de React.JS.
 
 ## Tecnologias
 
