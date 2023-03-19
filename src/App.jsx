@@ -67,8 +67,8 @@ function App() {
     setGameStage(stages[1].name);
   };
   // process the letter input
-  const verfyLetter = () => {
-    setGameStage(stages[2].name);
+  const verifyLetter = (letter) => {
+    console.log(letter);
   };
 
   // Retry the game
@@ -81,7 +81,7 @@ function App() {
       {gameStage === "start" && <StartScreen startGame={startGame} />}
       {gameStage === "game" && (
         <Game
-          verfyLetter={verfyLetter}
+          verifyLetter={verifyLetter}
           pickedWord={pickedWord}
           pickedCategory={pickedCategory}
           letters={letters}
